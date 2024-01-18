@@ -19,7 +19,7 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     //$posts = Post::where('user_id', auth()->id())->get();
-    return view('home');
+    return view('edit-post');
 });
 
 // Route::post('/register', [UserController::class, 'register']);
